@@ -75,7 +75,7 @@ resource "b1ddi_address" "example_tf_address" {
 
 <a id="nestedblock--names"></a>
 <details>
-<summary>### Nested Schema for `names`</summary> 
+<summary>Nested Schema for `names`</summary> 
 
 Required:
 
@@ -86,7 +86,7 @@ Required:
 
 <a id="nestedatt--dhcp_info"></a>
 <details>
-<summary>### Nested Schema for `dhcp_info`</summary>
+<summary>Nested Schema for `dhcp_info`</summary>
 
 Read-Only:
 
