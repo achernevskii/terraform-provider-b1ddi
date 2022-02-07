@@ -74,15 +74,19 @@ resource "b1ddi_address" "example_tf_address" {
   | _DNS_ | Address is used by one or more DNS records. |
 
 <a id="nestedblock--names"></a>
-### Nested Schema for `names`
+<details>
+<summary>### Nested Schema for `names`</summary> 
 
 Required:
 
 - **name** (String) The name expressed as a single label or FQDN.
 - **type** (String) The origin of the name.
 
+</details>
+
 <a id="nestedatt--dhcp_info"></a>
-### Nested Schema for `dhcp_info`
+<details>
+<summary>### Nested Schema for `dhcp_info`</summary>
 
 Read-Only:
 
@@ -99,3 +103,4 @@ Read-Only:
   * _leased_: Address is under DHCP control and has a lease currently assigned. The lease details are contained in the matching _dhcp/lease_ resource.
 - **state_ts** (String) The timestamp at which the _state_ was last reported.
 
+</details>
